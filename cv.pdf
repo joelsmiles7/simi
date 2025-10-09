@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adewole Similoluwa Atinuke - CV</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --main-color: #2b6cb0;
+            --accent: #c9a227;
+            --bg: #f4f6f9;
+            --dark: #333;
+            --light: #666;
+            --white: #fff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+            background: var(--bg);
+            padding: 40px;
+            color: var(--dark);
+        }
+
+        .cv-wrapper {
+            max-width: 950px;
+            margin: 0 auto;
+            background: var(--white);
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Left column */
+        .left-column {
+            background: #2b2b2b;
+            color: #fff;
+            padding: 30px 25px;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid var(--accent);
+            margin: 0 auto 20px;
+            display: block;
+            object-fit: cover;
+        }
+
+        .left-column h2 {
+            font-size: 1.1rem;
+            color: var(--accent);
+            margin-top: 25px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding-bottom: 4px;
+        }
+
+        .left-column p,
+        .left-column li {
+            font-size: 0.9rem;
+            line-height: 1.5;
+            color: #ddd;
+        }
+
+        .left-column ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .left-column li {
+            margin-bottom: 6px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .contact-item span {
+            margin-left: 8px;
+        }
+
+        .skill-bar {
+            height: 6px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+            overflow: hidden;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        .skill-bar span {
+            display: block;
+            height: 100%;
+            background: var(--accent);
+            width: 85%;
+        }
+
+        /* Right column */
+        .right-column {
+            padding: 40px;
+        }
+
+        .right-column h1 {
+            font-size: 1.8rem;
+            color: var(--main-color);
+        }
+
+        .right-column h3 {
+            color: var(--main-color);
+            font-size: 1.1rem;
+            margin-top: 20px;
+            border-bottom: 2px solid var(--main-color);
+            display: inline-block;
+            padding-bottom: 3px;
+        }
+
+        .right-column p,
+        .right-column li {
+            font-size: 0.95rem;
+            color: var(--light);
+            margin-top: 8px;
+            line-height: 1.6;
+        }
+
+        .work-entry,
+        .education-entry {
+            margin-top: 15px;
+        }
+
+        .work-entry h4,
+        .education-entry h4 {
+            color: var(--dark);
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .work-entry span,
+        .education-entry span {
+            float: right;
+            font-size: 0.9rem;
+            color: var(--main-color);
+        }
+
+        /* Print layout */
+        @media print {
+            body {
+                padding: 0;
+                background: #fff;
+            }
+
+            .cv-wrapper {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cv-wrapper">
+        <!-- LEFT COLUMN -->
+        <aside class="left-column">
+            <img src="pics.jpg" alt="Profile photo" class="profile-pic" />
+
+            <h2>Contact</h2>
+            <div class="contact-item"><span>📞</span><span>+234 805 287 9302</span></div>
+            <div class="contact-item"><span>✉️</span><span>adewolesimiloluwa1<br>@gmail.com</span></div>
+            <div class="contact-item"><span>📍</span><span>Plot 3 Olusegun Raji House, Beckley Estate Rd, Lagos</span>
+            </div>
+
+            <h2>Skills</h2>
+            <ul>
+                <li>Organizational Skills<div class="skill-bar"><span style="width:90%"></span></div>
+                </li>
+                <li>Communication<div class="skill-bar"><span style="width:90%"></span></div>
+                </li>
+                <li>Microsoft Office<div class="skill-bar"><span style="width:85%"></span></div>
+                </li>
+                <li>Teamwork<div class="skill-bar"><span style="width:88%"></span></div>
+                </li>
+            </ul>
+
+            <h2>Languages</h2>
+            <p>English - Fluent</p>
+            <p>Yoruba - Fluent</p>
+
+            <h2>Passions</h2>
+            <ul>
+                <li>Community Service</li>
+                <li>Personal Development</li>
+                <li>Leadership Growth</li>
+            </ul>
+        </aside>
+
+        <!-- RIGHT COLUMN -->
+        <main class="right-column">
+            <h1>ADEWOLE SIMILOLUWA ATINUKE</h1>
+            <p style="margin-bottom:20px; color:var(--light);">Public Administration Graduate | Administrative
+                Professional</p>
+            <h3>Profile</h3>
+            <p>Dedicated and results-driven professional with a Bachelor’s degree in Public Administration and a proven
+                track record in administrative roles. Skilled in organization and resource management, with strong
+                attention to detail and commitment to excellence. Seeking opportunities to contribute expertise to a
+                dynamic organization.</p>
+
+            <h3>Work Experience</h3>
+            <div class="work-entry">
+                <h4>Med-in Pharmaceuticals Limited, Ogun State <span>2022 – 2024</span></h4>
+                <p><strong>Position:</strong> Front Desk / Supervisor</p>
+                <ul>
+                    <li>Provided comprehensive administrative support to staff.</li>
+                    <li>Managed telephone operations and records of incoming/outgoing mail.</li>
+                    <li>Organized meetings and coordinated logistics.</li>
+                    <li>Oversaw supply management and ensured optimal stock levels.</li>
+                    <li>Maintained staff directory and HR policy handbook.</li>
+                    <li>Computed staff attendance records accurately.</li>
+                </ul>
+            </div>
+
+            <div class="work-entry">
+                <h4>Legal Aid Community, Ogun State</h4>
+                <p><strong>Position:</strong> Volunteer</p>
+                <ul>
+                    <li>Supported organizational meetings and outreach operations.</li>
+                    <li>Engaged in community service at orphanages and local initiatives.</li>
+                    <li>Contributed to planning and execution of market clean-up projects.</li>
+                </ul>
+            </div>
+
+            <h3>Education</h3>
+            <div class="education-entry">
+                <h4>Kwara State University, Kwara State <span>2018 – 2021</span></h4>
+                <p>B.Sc. Public Administration — Second Class Upper Division</p>
+            </div>
+
+            <h3>Courses & Training</h3>
+            <ul>
+                <li>Customer Relationship Management — Alpha Consulting Services</li>
+                <li>Human Resource Management — Alpha Consulting Services</li>
+                <li>HES Competence Level 1 & 2 — Alpha Consulting Services</li>
+                <li>Environmental Impact Assessment (EIA) Level 3 — Alpha Consulting Services</li>
+            </ul>
+
+            <h3>References</h3>
+            <p>Available upon request.</p>
+        </main>
+    </div>
+</body>
+
+</html>
